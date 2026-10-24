@@ -1,0 +1,119 @@
+==================================================
+   LINKED LIST MANAGEMENT SYSTEM - TEST REPORT
+==================================================
+
+---------- DEMO: Singly Linked List ----------
+Before:
+40 -> 10 -> 30 -> 20 -> 50 -> NULL
+After Sort:
+10 -> 20 -> 30 -> 40 -> 50 -> NULL
+After Reverse:
+50 -> 40 -> 30 -> 20 -> 10 -> NULL
+
+---------- DEMO: Doubly Linked List ----------
+Forward:
+NULL <- 10 <-> 20 <-> 30 <-> 40 <-> NULL
+Backward:
+NULL <- 40 <-> 30 <-> 20 <-> 10 <-> NULL
+
+---------- TESTS: Singly Linked List ----------
+[PASS] S01 Empty list displays NULL
+[PASS] S02 Empty list count is 0
+[PASS] S03 Delete from beginning on empty list fails
+[PASS] S04 Delete from end on empty list fails
+[PASS] S05 Maximum of empty list is null
+[PASS] S06 Minimum of empty list is null
+[PASS] S07 Middle of empty list is null
+[PASS] S08 Search in empty list returns -1
+[PASS] S09 One-node list displays correctly
+[PASS] S10 One-node middle is the node itself
+[PASS] S11 Delete end of one-node list gives empty list
+[PASS] S12 Insert at position 1
+[PASS] S13 Delete at position 1
+[PASS] S14 Insert at position count+1 succeeds
+[PASS] S15 List after last-position insert
+[PASS] S16 Insert at position 0 fails
+[PASS] S17 Insert at position 99 fails
+[PASS] S18 Insert at negative position fails
+[PASS] S19 Delete at position 0 fails
+[PASS] S20 Delete at position 99 fails
+[PASS] S21 List unchanged after invalid operations
+[PASS] S22 Delete missing value fails
+[PASS] S23 List unchanged after failed delete
+[PASS] S24 Insert after missing value fails
+[PASS] S25 Insert before missing value fails
+[PASS] S26 Update missing value fails
+[PASS] S27 Search returns first occurrence
+[PASS] S28 Delete by value removes only first match
+[PASS] S29 Remove duplicates returns removed count
+[PASS] S30 Remove duplicates keeps first occurrences
+[PASS] S31 Maximum with negatives and zero
+[PASS] S32 Minimum with negatives and zero
+[PASS] S33 Sort with negatives and zero
+[PASS] S34 Sort empty list is safe
+[PASS] S35 Sort single-node list is safe
+[PASS] S36 Reverse empty list is safe
+[PASS] S37 Reverse single-node list is safe
+[PASS] S38 Insert after and before a node
+[PASS] S39 Middle of odd-length list
+[PASS] S40 Middle of even-length list (second middle)
+[PASS] S41 Reverse normal list
+[PASS] S42 Update a value
+[PASS] S43 Delete from end
+[PASS] S44 Delete from middle position
+
+---------- TESTS: Doubly Linked List ----------
+[PASS] D01 Empty list displays NULL (forward)
+[PASS] D02 Empty list displays NULL (backward)
+[PASS] D03 Empty list count is 0
+[PASS] D04 Delete from beginning on empty list fails
+[PASS] D05 Delete from end on empty list fails
+[PASS] D06 Maximum of empty list is null
+[PASS] D07 Middle of empty list is null
+[PASS] D08 One-node forward
+[PASS] D09 One-node backward
+[PASS] D10 Delete only node gives empty list
+[PASS] D11 Insert into emptied list works (head and tail reset)
+[PASS] D12 Insert at position 1 (forward)
+[PASS] D13 Insert at position 1 (backward)
+[PASS] D14 Delete at position 1 (forward)
+[PASS] D15 Delete at position 1 (backward)
+[PASS] D16 Insert at position count+1 succeeds
+[PASS] D17 Forward after last-position insert
+[PASS] D18 Backward after last-position insert
+[PASS] D19 Insert at position 0 fails
+[PASS] D20 Insert at position 99 fails
+[PASS] D21 Delete at position 0 fails
+[PASS] D22 Delete at position 99 fails
+[PASS] D23 List unchanged after invalid operations
+[PASS] D24 Delete missing value fails
+[PASS] D25 Insert after missing value fails
+[PASS] D26 Insert before missing value fails
+[PASS] D27 Update missing value fails
+[PASS] D28 Search returns first occurrence
+[PASS] D29 Remove duplicates returns removed count
+[PASS] D30 Forward after remove duplicates
+[PASS] D31 Backward after remove duplicates
+[PASS] D32 Maximum with negatives and zero
+[PASS] D33 Minimum with negatives and zero
+[PASS] D34 Sort with negatives and zero (forward)
+[PASS] D35 Sort with negatives and zero (backward)
+[PASS] D36 Sort empty list is safe
+[PASS] D37 Sort single-node list is safe
+[PASS] D38 Reverse empty list is safe
+[PASS] D39 Reverse single-node list is safe
+[PASS] D40 Insert after/before (forward)
+[PASS] D41 Insert after/before (backward)
+[PASS] D42 Reverse (forward)
+[PASS] D43 Reverse (backward)
+[PASS] D44 Delete from both ends (forward)
+[PASS] D45 Delete from both ends (backward)
+[PASS] D46 Delete from middle position
+[PASS] D47 Delete by value
+[PASS] D48 Middle element
+
+==================================================
+Total tests : 92
+Passed      : 92
+Failed      : 0
+==================================================
